@@ -1,3 +1,15 @@
-node_modules/
-dist/
-output/current.png
+# Test artifacts — not for git
+test-render.mjs
+output/generated-test.svg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+
+# OS
+.DS_Store
