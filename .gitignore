@@ -1,3 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+
+# Node
 node_modules/
 dist/
-output/current.png
+
+# OS
+.DS_Store
+
+# Test artifacts — not for git
+test-render.mjs
+output/generated-test.svg
+
+# PII protection — family/personal data must NEVER be committed
+*data.json
+*birth*
+*family*
+*friends*
+*personal*
+becca.*
+benjamin*
+michael*
+victoria*
+william*
+test.*
+tests/local/
