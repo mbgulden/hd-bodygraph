@@ -1,0 +1,8 @@
+{
+  "command": "drive cli-usage-error",
+  "ok": true,
+  "surface": "CLI (render-cli.mjs)",
+  "exit_code": 1,
+  "stderr_has_usage": true,
+  "error": null
+}

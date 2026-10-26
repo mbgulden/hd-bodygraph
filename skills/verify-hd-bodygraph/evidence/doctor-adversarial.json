@@ -1,0 +1,56 @@
+{
+  "command": "doctor",
+  "ok": false,
+  "checks": [
+    {
+      "check": "repo-remote",
+      "ok": true,
+      "detail": "origin remote matches expected project",
+      "remote": "https://***@github.com/mbgulden/hd-bodygraph.git"
+    },
+    {
+      "check": "node-version",
+      "ok": true,
+      "detail": "node v22.22.2"
+    },
+    {
+      "check": "package-identity",
+      "ok": true,
+      "detail": "@gonzih/hd-bodygraph v1.4.1"
+    },
+    {
+      "check": "fixture",
+      "ok": true,
+      "detail": "test-chart.json: parses; has definedCenters + channels",
+      "sha256": "1ce0d1f721cd3d90f463699e13041d94acd0fa64d840ba8e4f1c8b269ae34b98"
+    },
+    {
+      "check": "npm-build",
+      "ok": true,
+      "detail": "npm run build exit 0"
+    },
+    {
+      "check": "lib-exports",
+      "ok": true,
+      "detail": "dist/index.mjs exports: BodyGraph,renderToSVG"
+    },
+    {
+      "check": "cli-entry",
+      "ok": true,
+      "detail": "render-cli.mjs present; no-args exit 1 with Usage on stderr"
+    },
+    {
+      "check": "expected-remote",
+      "ok": false,
+      "detail": "origin does NOT match --expected-remote (adversarial check failed as intended or misconfigured)"
+    },
+    {
+      "check": "env-secret-policy",
+      "ok": true,
+      "detail": "secrets env-only; allowed var(s) set: GITHUB_TOKEN (values never printed or written)"
+    }
+  ],
+  "failed": [
+    "expected-remote"
+  ]
+}

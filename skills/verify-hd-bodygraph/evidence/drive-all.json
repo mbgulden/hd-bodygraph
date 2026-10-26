@@ -1,0 +1,18 @@
+{
+  "command": "drive all",
+  "ok": true,
+  "results": {
+    "lib": {
+      "exit": 0,
+      "output": "{\n  \"command\": \"drive lib\",\n  \"ok\": true,\n  \"surface\": \"library (dist/index.mjs renderToSVG)\",\n  \"svg\": \"/home/ubuntu/work/hd-bodygraph/skills/verify-hd-bodygraph/evidence/lib-canonical.svg\",\n  \"viewBox\": \"0 0 820 900\",\n  \"viewBox_expected\": \"0 0 820 900\",\n  \"bytes\": 35293,\n  \"sha256\": \"273ce86f3f67349a92a95ab3a6c1c4fd58bcb35d2d1f0c7afce983989c2bc253\",\n  \"error\": null\n}"
+    },
+    "cli": {
+      "exit": 0,
+      "output": "{\n  \"command\": \"drive cli\",\n  \"ok\": true,\n  \"surface\": \"CLI (render-cli.mjs \\u2192 render-pro.mjs)\",\n  \"svg\": \"/home/ubuntu/work/hd-bodygraph/skills/verify-hd-bodygraph/evidence/cli-canonical.svg\",\n  \"viewBox\": \"0 0 820 960\",\n  \"viewBox_expected\": \"0 0 820 960\",\n  \"bytes\": 24257,\n  \"sha256\": \"3f2b7e3c87c45e1798fc004dea2715587c042373afe0720fc633e63699a6fb4f\",\n  \"error\": null\n}"
+    },
+    "manifest": {
+      "exit": 0,
+      "output": "{\n  \"command\": \"drive manifest\",\n  \"ok\": true,\n  \"manifest\": \"/home/ubuntu/work/hd-bodygraph/skills/verify-hd-bodygraph/evidence/manifest.sha256\",\n  \"entries\": {\n    \"cli-canonical.svg\": \"3f2b7e3c87c45e1798fc004dea2715587c042373afe0720fc633e63699a6fb4f\",\n    \"lib-canonical.svg\": \"273ce86f3f67349a92a95ab3a6c1c4fd58bcb35d2d1f0c7afce983989c2bc253\"\n  }\n}"
+    }
+  }
+}
