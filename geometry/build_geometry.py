@@ -23,7 +23,7 @@ Coordinate space: rescaled from 820x900 to a 1000x1000 viewBox using a
 UNIFORM scale (1000/900) so aspect ratio is preserved, then the content is
 centered horizontally. This transform is recorded in _meta.
 """
-import json, re, os, datetime
+import json, re, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)  # /home/ubuntu/work/hd-bodygraph
@@ -162,7 +162,6 @@ doc = {
         "reconciliation": "geometry.ts carries 35 channel paths; the engine's canonical table has 36. "
                           "The missing channel (10-34 'Exploration', G<->Sacral) is added from the engine "
                           "so the deliverable is the complete 36-channel set.",
-        "generated_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     },
     "centers": centers_out,
     "channels": channels_out,

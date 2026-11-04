@@ -39,8 +39,7 @@
       "channels": 36,
       "gates": 64
     },
-    "reconciliation": "geometry.ts carries 35 channel paths; the engine's canonical table has 36. The missing channel (10-34 'Exploration', G<->Sacral) is added from the engine so the deliverable is the complete 36-channel set.",
-    "generated_utc": "2026-11-04T06:21:14Z"
+    "reconciliation": "geometry.ts carries 35 channel paths; the engine's canonical table has 36. The missing channel (10-34 'Exploration', G<->Sacral) is added from the engine so the deliverable is the complete 36-channel set."
   },
   "centers": [
     {
