@@ -1,0 +1,1308 @@
+{
+  "_meta": {
+    "artifact": "bodygraph_geometry",
+    "kind": "data-only geometry (no drawing code)",
+    "source": {
+      "geometry_positions": {
+        "name": "On-box bodygraph renderer library (src/geometry.ts + src/renderer.ts)",
+        "path": "/home/ubuntu/work/hd-bodygraph/src/geometry.ts",
+        "note": "Recommended by RESEARCH-technical-resources.md \u00a73.6/\u00a75.2 and SPEC.md \u00a75 (the box library renderer is the canonical default)."
+      },
+      "wheel_topology": {
+        "name": "OpenHumanDesignMCP canonical HD mapping (matrix_mapper.py)",
+        "path": "/home/ubuntu/work/OpenHumanDesignMCP/hd-mcp-server/src/matrix_mapper.py",
+        "note": "Authoritative gate->center (GATE_CENTER) and 36-channel table (CHANNELS)."
+      }
+    },
+    "license": "AGPL-3.0",
+    "license_note": "geometry.ts / renderer.ts live in the on-box hd-bodygraph prototype, part of the AGPL-3.0 GrowthWeb HD platform (per RESEARCH-technical-resources.md \u00a73.6 'Own/AGPL platform'). No third-party/public-domain SVG template was used. Michael confirms any license change.",
+    "viewbox": {
+      "source": {
+        "width": 820,
+        "height": 900
+      },
+      "target": {
+        "width": 1000,
+        "height": 1000
+      }
+    },
+    "transform": {
+      "method": "uniform-scale then center",
+      "scale": 1.111111,
+      "x_offset": 44.44,
+      "x_prime": "x' = x_offset + x * scale",
+      "y_prime": "y' = y * scale",
+      "aspect_ratio_preserved": true
+    },
+    "counts": {
+      "centers": 9,
+      "channels": 36,
+      "gates": 64
+    },
+    "reconciliation": "geometry.ts carries 35 channel paths; the engine's canonical table has 36. The missing channel (10-34 'Exploration', G<->Sacral) is added from the engine so the deliverable is the complete 36-channel set.",
+    "generated_utc": "2026-11-04T06:21:14Z"
+  },
+  "centers": [
+    {
+      "id": "head",
+      "name": "Head",
+      "shape": "triangle-up",
+      "cx": 500.0,
+      "cy": 94.44,
+      "w": 77.78,
+      "h": 94.44
+    },
+    {
+      "id": "ajna",
+      "name": "Ajna",
+      "shape": "diamond",
+      "cx": 500.0,
+      "cy": 207.78,
+      "w": 105.56,
+      "h": 83.33
+    },
+    {
+      "id": "throat",
+      "name": "Throat",
+      "shape": "rectangle",
+      "cx": 500.0,
+      "cy": 337.78,
+      "w": 144.44,
+      "h": 77.78
+    },
+    {
+      "id": "g",
+      "name": "G",
+      "shape": "diamond",
+      "cx": 500.0,
+      "cy": 485.56,
+      "w": 111.11,
+      "h": 133.33
+    },
+    {
+      "id": "ego",
+      "name": "Ego",
+      "shape": "diamond",
+      "cx": 627.78,
+      "cy": 415.56,
+      "w": 88.89,
+      "h": 107.78
+    },
+    {
+      "id": "sacral",
+      "name": "Sacral",
+      "shape": "rectangle",
+      "cx": 500.0,
+      "cy": 662.22,
+      "w": 144.44,
+      "h": 83.33
+    },
+    {
+      "id": "solarplexus",
+      "name": "SolarPlexus",
+      "shape": "triangle-left",
+      "cx": 733.33,
+      "cy": 577.78,
+      "w": 155.56,
+      "h": 172.22
+    },
+    {
+      "id": "spleen",
+      "name": "Spleen",
+      "shape": "triangle-right",
+      "cx": 266.67,
+      "cy": 577.78,
+      "w": 155.56,
+      "h": 172.22
+    },
+    {
+      "id": "root",
+      "name": "Root",
+      "shape": "rectangle",
+      "cx": 500.0,
+      "cy": 800.0,
+      "w": 111.11,
+      "h": 72.22
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "name": "Inspiration (Individual)",
+      "gates": [
+        1,
+        8
+      ],
+      "center_pair": [
+        "g",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          500.0,
+          396.67
+        ],
+        [
+          472.22,
+          327.78
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Beat (Individual)",
+      "gates": [
+        2,
+        14
+      ],
+      "center_pair": [
+        "g",
+        "sacral"
+      ],
+      "path_endpoints": [
+        [
+          480.0,
+          476.67
+        ],
+        [
+          500.0,
+          576.67
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mutation (Individual)",
+      "gates": [
+        3,
+        60
+      ],
+      "center_pair": [
+        "sacral",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          546.67,
+          637.78
+        ],
+        [
+          533.33,
+          682.22
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Logic (Collective)",
+      "gates": [
+        4,
+        63
+      ],
+      "center_pair": [
+        "ajna",
+        "head"
+      ],
+      "path_endpoints": [
+        [
+          520.0,
+          172.22
+        ],
+        [
+          520.0,
+          135.56
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rhythm (Collective)",
+      "gates": [
+        5,
+        15
+      ],
+      "center_pair": [
+        "sacral",
+        "g"
+      ],
+      "path_endpoints": [
+        [
+          472.22,
+          576.67
+        ],
+        [
+          520.0,
+          476.67
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mating (Tribal)",
+      "gates": [
+        6,
+        59
+      ],
+      "center_pair": [
+        "solarplexus",
+        "sacral"
+      ],
+      "path_endpoints": [
+        [
+          786.67,
+          573.33
+        ],
+        [
+          500.0,
+          637.78
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Alpha (Collective)",
+      "gates": [
+        7,
+        31
+      ],
+      "center_pair": [
+        "g",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          480.0,
+          396.67
+        ],
+        [
+          453.33,
+          327.78
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Concentration (Collective)",
+      "gates": [
+        9,
+        52
+      ],
+      "center_pair": [
+        "sacral",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          637.78
+        ],
+        [
+          500.0,
+          782.22
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Awakening (Individual)",
+      "gates": [
+        10,
+        20
+      ],
+      "center_pair": [
+        "g",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          416.67,
+          515.56
+        ],
+        [
+          527.78,
+          327.78
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Exploration (Individual)",
+      "gates": [
+        10,
+        34
+      ],
+      "center_pair": [
+        "g",
+        "sacral"
+      ],
+      "path_endpoints": [
+        [
+          416.67,
+          515.56
+        ],
+        [
+          453.33,
+          637.78
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Survival (Individual)",
+      "gates": [
+        10,
+        57
+      ],
+      "center_pair": [
+        "g",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          416.67,
+          515.56
+        ],
+        [
+          213.33,
+          533.33
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Curiosity (Collective)",
+      "gates": [
+        11,
+        56
+      ],
+      "center_pair": [
+        "ajna",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          485.56,
+          248.89
+        ],
+        [
+          472.22,
+          300.0
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Openness (Individual)",
+      "gates": [
+        12,
+        22
+      ],
+      "center_pair": [
+        "throat",
+        "solarplexus"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          300.0
+        ],
+        [
+          786.67,
+          533.33
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Prodigal (Collective)",
+      "gates": [
+        13,
+        33
+      ],
+      "center_pair": [
+        "g",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          520.0,
+          396.67
+        ],
+        [
+          500.0,
+          327.78
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Talent (Collective)",
+      "gates": [
+        16,
+        48
+      ],
+      "center_pair": [
+        "throat",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          546.67,
+          327.78
+        ],
+        [
+          213.33,
+          513.33
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Acceptance (Collective)",
+      "gates": [
+        17,
+        62
+      ],
+      "center_pair": [
+        "ajna",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          472.22,
+          248.89
+        ],
+        [
+          453.33,
+          300.0
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Judgment (Collective)",
+      "gates": [
+        18,
+        58
+      ],
+      "center_pair": [
+        "spleen",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          213.33,
+          633.33
+        ],
+        [
+          457.78,
+          782.22
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Synthesis (Tribal)",
+      "gates": [
+        19,
+        49
+      ],
+      "center_pair": [
+        "root",
+        "solarplexus"
+      ],
+      "path_endpoints": [
+        [
+          528.89,
+          782.22
+        ],
+        [
+          786.67,
+          593.33
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Charisma (Individual)",
+      "gates": [
+        20,
+        34
+      ],
+      "center_pair": [
+        "throat",
+        "sacral"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          327.78
+        ],
+        [
+          453.33,
+          637.78
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Insight (Individual)",
+      "gates": [
+        20,
+        57
+      ],
+      "center_pair": [
+        "throat",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          327.78
+        ],
+        [
+          213.33,
+          533.33
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Money (Tribal)",
+      "gates": [
+        21,
+        45
+      ],
+      "center_pair": [
+        "ego",
+        "throat"
+      ],
+      "path_endpoints": [
+        [
+          575.56,
+          443.33
+        ],
+        [
+          546.67,
+          300.0
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Structuring (Individual)",
+      "gates": [
+        23,
+        43
+      ],
+      "center_pair": [
+        "throat",
+        "ajna"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          248.89
+        ],
+        [
+          500.0,
+          248.89
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Awareness (Individual)",
+      "gates": [
+        24,
+        61
+      ],
+      "center_pair": [
+        "ajna",
+        "head"
+      ],
+      "path_endpoints": [
+        [
+          500.0,
+          172.22
+        ],
+        [
+          500.0,
+          135.56
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Initiation (Individual)",
+      "gates": [
+        25,
+        51
+      ],
+      "center_pair": [
+        "g",
+        "ego"
+      ],
+      "path_endpoints": [
+        [
+          411.11,
+          543.33
+        ],
+        [
+          575.56,
+          412.22
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Surrender (Tribal)",
+      "gates": [
+        26,
+        44
+      ],
+      "center_pair": [
+        "ego",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          575.56,
+          382.22
+        ],
+        [
+          213.33,
+          553.33
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Preservation (Tribal)",
+      "gates": [
+        27,
+        50
+      ],
+      "center_pair": [
+        "sacral",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          472.22,
+          637.78
+        ],
+        [
+          213.33,
+          573.33
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Struggle (Individual)",
+      "gates": [
+        28,
+        38
+      ],
+      "center_pair": [
+        "spleen",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          213.33,
+          613.33
+        ],
+        [
+          475.56,
+          782.22
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Discovery (Collective)",
+      "gates": [
+        29,
+        46
+      ],
+      "center_pair": [
+        "sacral",
+        "g"
+      ],
+      "path_endpoints": [
+        [
+          527.78,
+          576.67
+        ],
+        [
+          500.0,
+          476.67
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Recognition (Collective)",
+      "gates": [
+        30,
+        41
+      ],
+      "center_pair": [
+        "solarplexus",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          786.67,
+          613.33
+        ],
+        [
+          500.0,
+          811.11
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Transformation (Tribal)",
+      "gates": [
+        32,
+        54
+      ],
+      "center_pair": [
+        "spleen",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          213.33,
+          593.33
+        ],
+        [
+          493.33,
+          782.22
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Power (Individual)",
+      "gates": [
+        34,
+        57
+      ],
+      "center_pair": [
+        "sacral",
+        "spleen"
+      ],
+      "path_endpoints": [
+        [
+          453.33,
+          637.78
+        ],
+        [
+          213.33,
+          533.33
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Transitoriness (Collective)",
+      "gates": [
+        35,
+        36
+      ],
+      "center_pair": [
+        "throat",
+        "solarplexus"
+      ],
+      "path_endpoints": [
+        [
+          500.0,
+          300.0
+        ],
+        [
+          786.67,
+          513.33
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Community (Tribal)",
+      "gates": [
+        37,
+        40
+      ],
+      "center_pair": [
+        "solarplexus",
+        "ego"
+      ],
+      "path_endpoints": [
+        [
+          786.67,
+          553.33
+        ],
+        [
+          600.0,
+          495.56
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Emoting (Individual)",
+      "gates": [
+        39,
+        55
+      ],
+      "center_pair": [
+        "root",
+        "solarplexus"
+      ],
+      "path_endpoints": [
+        [
+          546.67,
+          782.22
+        ],
+        [
+          786.67,
+          633.33
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Maturation (Collective)",
+      "gates": [
+        42,
+        53
+      ],
+      "center_pair": [
+        "sacral",
+        "root"
+      ],
+      "path_endpoints": [
+        [
+          466.67,
+          682.22
+        ],
+        [
+          500.0,
+          682.22
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Abstraction (Collective)",
+      "gates": [
+        47,
+        64
+      ],
+      "center_pair": [
+        "ajna",
+        "head"
+      ],
+      "path_endpoints": [
+        [
+          480.0,
+          172.22
+        ],
+        [
+          480.0,
+          135.56
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "number": 1,
+      "center": "g",
+      "x": 500.0,
+      "y": 396.67
+    },
+    {
+      "number": 2,
+      "center": "g",
+      "x": 480.0,
+      "y": 476.67
+    },
+    {
+      "number": 3,
+      "center": "sacral",
+      "x": 546.67,
+      "y": 637.78
+    },
+    {
+      "number": 4,
+      "center": "ajna",
+      "x": 520.0,
+      "y": 172.22
+    },
+    {
+      "number": 5,
+      "center": "sacral",
+      "x": 472.22,
+      "y": 576.67
+    },
+    {
+      "number": 6,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 573.33
+    },
+    {
+      "number": 7,
+      "center": "g",
+      "x": 480.0,
+      "y": 396.67
+    },
+    {
+      "number": 8,
+      "center": "throat",
+      "x": 472.22,
+      "y": 327.78
+    },
+    {
+      "number": 9,
+      "center": "sacral",
+      "x": 527.78,
+      "y": 637.78
+    },
+    {
+      "number": 10,
+      "center": "g",
+      "x": 416.67,
+      "y": 515.56
+    },
+    {
+      "number": 11,
+      "center": "ajna",
+      "x": 485.56,
+      "y": 248.89
+    },
+    {
+      "number": 12,
+      "center": "throat",
+      "x": 527.78,
+      "y": 300.0
+    },
+    {
+      "number": 13,
+      "center": "g",
+      "x": 520.0,
+      "y": 396.67
+    },
+    {
+      "number": 14,
+      "center": "sacral",
+      "x": 500.0,
+      "y": 576.67
+    },
+    {
+      "number": 15,
+      "center": "g",
+      "x": 520.0,
+      "y": 476.67
+    },
+    {
+      "number": 16,
+      "center": "throat",
+      "x": 546.67,
+      "y": 327.78
+    },
+    {
+      "number": 17,
+      "center": "ajna",
+      "x": 472.22,
+      "y": 248.89
+    },
+    {
+      "number": 18,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 633.33
+    },
+    {
+      "number": 19,
+      "center": "root",
+      "x": 528.89,
+      "y": 782.22
+    },
+    {
+      "number": 20,
+      "center": "throat",
+      "x": 527.78,
+      "y": 327.78
+    },
+    {
+      "number": 21,
+      "center": "ego",
+      "x": 575.56,
+      "y": 443.33
+    },
+    {
+      "number": 22,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 533.33
+    },
+    {
+      "number": 23,
+      "center": "throat",
+      "x": 527.78,
+      "y": 248.89
+    },
+    {
+      "number": 24,
+      "center": "ajna",
+      "x": 500.0,
+      "y": 172.22
+    },
+    {
+      "number": 25,
+      "center": "g",
+      "x": 411.11,
+      "y": 543.33
+    },
+    {
+      "number": 26,
+      "center": "ego",
+      "x": 575.56,
+      "y": 382.22
+    },
+    {
+      "number": 27,
+      "center": "sacral",
+      "x": 472.22,
+      "y": 637.78
+    },
+    {
+      "number": 28,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 613.33
+    },
+    {
+      "number": 29,
+      "center": "sacral",
+      "x": 527.78,
+      "y": 576.67
+    },
+    {
+      "number": 30,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 613.33
+    },
+    {
+      "number": 31,
+      "center": "throat",
+      "x": 453.33,
+      "y": 327.78
+    },
+    {
+      "number": 32,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 593.33
+    },
+    {
+      "number": 33,
+      "center": "throat",
+      "x": 500.0,
+      "y": 327.78
+    },
+    {
+      "number": 34,
+      "center": "sacral",
+      "x": 453.33,
+      "y": 637.78
+    },
+    {
+      "number": 35,
+      "center": "throat",
+      "x": 500.0,
+      "y": 300.0
+    },
+    {
+      "number": 36,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 513.33
+    },
+    {
+      "number": 37,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 553.33
+    },
+    {
+      "number": 38,
+      "center": "root",
+      "x": 475.56,
+      "y": 782.22
+    },
+    {
+      "number": 39,
+      "center": "root",
+      "x": 546.67,
+      "y": 782.22
+    },
+    {
+      "number": 40,
+      "center": "ego",
+      "x": 600.0,
+      "y": 495.56
+    },
+    {
+      "number": 41,
+      "center": "root",
+      "x": 500.0,
+      "y": 811.11
+    },
+    {
+      "number": 42,
+      "center": "sacral",
+      "x": 466.67,
+      "y": 682.22
+    },
+    {
+      "number": 43,
+      "center": "ajna",
+      "x": 500.0,
+      "y": 248.89
+    },
+    {
+      "number": 44,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 553.33
+    },
+    {
+      "number": 45,
+      "center": "throat",
+      "x": 546.67,
+      "y": 300.0
+    },
+    {
+      "number": 46,
+      "center": "g",
+      "x": 500.0,
+      "y": 476.67
+    },
+    {
+      "number": 47,
+      "center": "ajna",
+      "x": 480.0,
+      "y": 172.22
+    },
+    {
+      "number": 48,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 513.33
+    },
+    {
+      "number": 49,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 593.33
+    },
+    {
+      "number": 50,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 573.33
+    },
+    {
+      "number": 51,
+      "center": "ego",
+      "x": 575.56,
+      "y": 412.22
+    },
+    {
+      "number": 52,
+      "center": "root",
+      "x": 500.0,
+      "y": 782.22
+    },
+    {
+      "number": 53,
+      "center": "root",
+      "x": 500.0,
+      "y": 682.22
+    },
+    {
+      "number": 54,
+      "center": "root",
+      "x": 493.33,
+      "y": 782.22
+    },
+    {
+      "number": 55,
+      "center": "solarplexus",
+      "x": 786.67,
+      "y": 633.33
+    },
+    {
+      "number": 56,
+      "center": "throat",
+      "x": 472.22,
+      "y": 300.0
+    },
+    {
+      "number": 57,
+      "center": "spleen",
+      "x": 213.33,
+      "y": 533.33
+    },
+    {
+      "number": 58,
+      "center": "root",
+      "x": 457.78,
+      "y": 782.22
+    },
+    {
+      "number": 59,
+      "center": "sacral",
+      "x": 500.0,
+      "y": 637.78
+    },
+    {
+      "number": 60,
+      "center": "root",
+      "x": 533.33,
+      "y": 682.22
+    },
+    {
+      "number": 61,
+      "center": "head",
+      "x": 500.0,
+      "y": 135.56
+    },
+    {
+      "number": 62,
+      "center": "throat",
+      "x": 453.33,
+      "y": 300.0
+    },
+    {
+      "number": 63,
+      "center": "head",
+      "x": 520.0,
+      "y": 135.56
+    },
+    {
+      "number": 64,
+      "center": "head",
+      "x": 480.0,
+      "y": 135.56
+    }
+  ]
+}
