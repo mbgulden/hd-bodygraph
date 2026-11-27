@@ -1,0 +1,1479 @@
+{
+  "metadata": {
+    "reference_data_version": "1.1.0",
+    "source_dir": "/home/ubuntu/work/OpenHumanDesignMCP/hd-mcp-server/src/",
+    "generated_by": "kai (HD reference library, H11 whole-shelf)",
+    "total_entries": 133
+  },
+  "types": [
+    {
+      "id": "Generator",
+      "name": "Generator",
+      "summary": "Sacral life force; satisfaction when aligned, frustration when not.",
+      "strategy": "wait to respond"
+    },
+    {
+      "id": "Manifesting Generator",
+      "name": "Manifesting Generator",
+      "summary": "Sacral life force with a faster, multi-passionate rhythm.",
+      "strategy": "wait to respond, then inform"
+    },
+    {
+      "id": "Projector",
+      "name": "Projector",
+      "summary": "A guidance gift; success when aligned, bitterness when not.",
+      "strategy": "wait for recognition and an invitation"
+    },
+    {
+      "id": "Manifestor",
+      "name": "Manifestor",
+      "summary": "Initiating energy; peace when aligned, anger when not.",
+      "strategy": "inform before acting"
+    },
+    {
+      "id": "Reflector",
+      "name": "Reflector",
+      "summary": "Samples the environment; surprise when aligned, disappointment when not.",
+      "strategy": "wait a lunar cycle before big decisions"
+    }
+  ],
+  "centers": [
+    {
+      "id": "Head",
+      "name": "Head",
+      "summary": "Inspiration and mental pressure \u2014 the pressure to think, question, and make sense of things.",
+      "theme": "Inspiration and mental pressure \u2014 the pressure to think, question, and make sense of things."
+    },
+    {
+      "id": "Ajna",
+      "name": "Ajna",
+      "summary": "Conceptualization and mental awareness \u2014 forming views, opinions, and models of how things work.",
+      "theme": "Conceptualization and mental awareness \u2014 forming views, opinions, and models of how things work."
+    },
+    {
+      "id": "Throat",
+      "name": "Throat",
+      "summary": "Communication and manifestation \u2014 expression, voice, and bringing things into form.",
+      "theme": "Communication and manifestation \u2014 expression, voice, and bringing things into form."
+    },
+    {
+      "id": "G",
+      "name": "G",
+      "summary": "Identity, direction, and love \u2014 the sense of self and the direction of a life.",
+      "theme": "Identity, direction, and love \u2014 the sense of self and the direction of a life."
+    },
+    {
+      "id": "Heart/Ego",
+      "name": "Heart/Ego",
+      "summary": "Willpower and value \u2014 commitment, resources, and proving what something is worth.",
+      "theme": "Willpower and value \u2014 commitment, resources, and proving what something is worth."
+    },
+    {
+      "id": "Sacral",
+      "name": "Sacral",
+      "summary": "Life-force and response \u2014 sustainable energy for work, life, and creation.",
+      "theme": "Life-force and response \u2014 sustainable energy for work, life, and creation."
+    },
+    {
+      "id": "Solar Plexus",
+      "name": "Solar Plexus",
+      "summary": "Emotional awareness \u2014 feelings moving in waves; clarity that arrives over time.",
+      "theme": "Emotional awareness \u2014 feelings moving in waves; clarity that arrives over time."
+    },
+    {
+      "id": "Spleen",
+      "name": "Spleen",
+      "summary": "Instinct and wellbeing \u2014 in-the-moment intuition, health, and survival awareness.",
+      "theme": "Instinct and wellbeing \u2014 in-the-moment intuition, health, and survival awareness."
+    },
+    {
+      "id": "Root",
+      "name": "Root",
+      "summary": "Pressure and drive \u2014 the adrenaline pressure that fuels movement and timing.",
+      "theme": "Pressure and drive \u2014 the adrenaline pressure that fuels movement and timing."
+    }
+  ],
+  "authorities": [
+    {
+      "id": "Emotional",
+      "name": "Emotional",
+      "summary": "Clarity comes over time, riding the emotional wave. No truth in the now. This is the ONLY authority that works through emotion."
+    },
+    {
+      "id": "Splenic",
+      "name": "Splenic",
+      "summary": "Instinct and intuition in the present moment: a quiet, once-only knowing about wellbeing and survival. It is not emotional and it does not repeat or explain itself."
+    },
+    {
+      "id": "Sacral",
+      "name": "Sacral",
+      "summary": "A gut response in the now: sounds, warmth, or a clear yes/no from the body."
+    },
+    {
+      "id": "Ego",
+      "name": "Ego",
+      "summary": "Willpower: what the heart is genuinely in for, including the need for rest and keeping promises sustainable."
+    },
+    {
+      "id": "Self-Projected",
+      "name": "Self-Projected",
+      "summary": "Truth is heard in your own voice while talking it through; direction comes from identity."
+    },
+    {
+      "id": "Mental",
+      "name": "Mental",
+      "summary": "No inner authority: sample environments and use trusted people as sounding boards over time."
+    },
+    {
+      "id": "Lunar",
+      "name": "Lunar",
+      "summary": "Wait a full 28-day cycle, sampling clarity across the whole cycle."
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1/3",
+      "name": "Investigator/Martyr",
+      "summary": "Conscious line 1 (Investigator): Needs a solid foundation; studies deeply before feeling secure. Unconscious line 3 (Martyr): Learns by trial and error; experience is the teacher.",
+      "conscious": "1",
+      "unconscious": "3"
+    },
+    {
+      "id": "1/4",
+      "name": "Investigator/Opportunist",
+      "summary": "Conscious line 1 (Investigator): Needs a solid foundation; studies deeply before feeling secure. Unconscious line 4 (Opportunist): People and networks are the path; influence flows through relationships.",
+      "conscious": "1",
+      "unconscious": "4"
+    },
+    {
+      "id": "2/4",
+      "name": "Hermit/Opportunist",
+      "summary": "Conscious line 2 (Hermit): A natural gift that needs alone time; others call the talent out. Unconscious line 4 (Opportunist): People and networks are the path; influence flows through relationships.",
+      "conscious": "2",
+      "unconscious": "4"
+    },
+    {
+      "id": "2/5",
+      "name": "Hermit/Heretic",
+      "summary": "Conscious line 2 (Hermit): A natural gift that needs alone time; others call the talent out. Unconscious line 5 (Heretic): A practical problem-solver others project onto; brings workable solutions.",
+      "conscious": "2",
+      "unconscious": "5"
+    },
+    {
+      "id": "3/5",
+      "name": "Martyr/Heretic",
+      "summary": "Conscious line 3 (Martyr): Learns by trial and error; experience is the teacher. Unconscious line 5 (Heretic): A practical problem-solver others project onto; brings workable solutions.",
+      "conscious": "3",
+      "unconscious": "5"
+    },
+    {
+      "id": "3/6",
+      "name": "Martyr/Role Model",
+      "summary": "Conscious line 3 (Martyr): Learns by trial and error; experience is the teacher. Unconscious line 6 (Role Model): A life in stages \u2014 experience first, then observation, then living as an example.",
+      "conscious": "3",
+      "unconscious": "6"
+    },
+    {
+      "id": "4/6",
+      "name": "Opportunist/Role Model",
+      "summary": "Conscious line 4 (Opportunist): People and networks are the path; influence flows through relationships. Unconscious line 6 (Role Model): A life in stages \u2014 experience first, then observation, then living as an example.",
+      "conscious": "4",
+      "unconscious": "6"
+    },
+    {
+      "id": "4/1",
+      "name": "Opportunist/Investigator",
+      "summary": "Conscious line 4 (Opportunist): People and networks are the path; influence flows through relationships. Unconscious line 1 (Investigator): Needs a solid foundation; studies deeply before feeling secure.",
+      "conscious": "4",
+      "unconscious": "1"
+    },
+    {
+      "id": "5/1",
+      "name": "Heretic/Investigator",
+      "summary": "Conscious line 5 (Heretic): A practical problem-solver others project onto; brings workable solutions. Unconscious line 1 (Investigator): Needs a solid foundation; studies deeply before feeling secure.",
+      "conscious": "5",
+      "unconscious": "1"
+    },
+    {
+      "id": "5/2",
+      "name": "Heretic/Hermit",
+      "summary": "Conscious line 5 (Heretic): A practical problem-solver others project onto; brings workable solutions. Unconscious line 2 (Hermit): A natural gift that needs alone time; others call the talent out.",
+      "conscious": "5",
+      "unconscious": "2"
+    },
+    {
+      "id": "6/2",
+      "name": "Role Model/Hermit",
+      "summary": "Conscious line 6 (Role Model): A life in stages \u2014 experience first, then observation, then living as an example. Unconscious line 2 (Hermit): A natural gift that needs alone time; others call the talent out.",
+      "conscious": "6",
+      "unconscious": "2"
+    },
+    {
+      "id": "6/3",
+      "name": "Role Model/Martyr",
+      "summary": "Conscious line 6 (Role Model): A life in stages \u2014 experience first, then observation, then living as an example. Unconscious line 3 (Martyr): Learns by trial and error; experience is the teacher.",
+      "conscious": "6",
+      "unconscious": "3"
+    }
+  ],
+  "gates": [
+    {
+      "id": 1,
+      "name": "Self-Expression",
+      "center": "G",
+      "summary": "Gate 1 \u2014 Self-Expression (G center).",
+      "lines": [
+        "Attunement",
+        "Foundation",
+        "Motivation",
+        "Communication",
+        "Immersion",
+        "Self-criticism"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Direction of the Self",
+      "center": "G",
+      "summary": "Gate 2 \u2014 Direction of the Self (G center).",
+      "lines": [
+        "Intuition",
+        "Genius",
+        "Patience",
+        "Secretiveness",
+        "Intelligent application",
+        "Fixation"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ordering",
+      "center": "Sacral",
+      "summary": "Gate 3 \u2014 Ordering (Sacral center).",
+      "lines": [
+        "Synthesis",
+        "Immaturity",
+        "Survival",
+        "Charisma",
+        "Victimization",
+        "Surrender"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Formulization",
+      "center": "Ajna",
+      "summary": "Gate 4 \u2014 Formulization (Ajna center).",
+      "lines": [
+        "Pleasure",
+        "Acceptance",
+        "Irresponsibility",
+        "The liar",
+        "Seduction",
+        "Excess"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fixed Rhythms",
+      "center": "Sacral",
+      "summary": "Gate 5 \u2014 Fixed Rhythms (Sacral center).",
+      "lines": [
+        "Perseverance",
+        "Inner peace",
+        "Compulsiveness",
+        "The hunter",
+        "Joy",
+        "Yielding"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Friction",
+      "center": "Solar Plexus",
+      "summary": "Gate 6 \u2014 Friction (Solar Plexus center).",
+      "lines": [
+        "Retreat",
+        "The guerilla",
+        "Allegiance",
+        "Triumph",
+        "Arbitration",
+        "The peacemaker"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Role of the Self in Interaction",
+      "center": "G",
+      "summary": "Gate 7 \u2014 The Role of the Self in Interaction (G center).",
+      "lines": [
+        "Authoritarian",
+        "The democrat",
+        "The anarchist",
+        "The abdicator",
+        "The general",
+        "The administrator"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Contribution",
+      "center": "Throat",
+      "summary": "Gate 8 \u2014 Contribution (Throat center).",
+      "lines": [
+        "Honesty",
+        "Service",
+        "The phoney",
+        "Respect",
+        "Dharma",
+        "Communion"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Focus",
+      "center": "Sacral",
+      "summary": "Gate 9 \u2014 Focus (Sacral center).",
+      "lines": [
+        "Sensibility",
+        "Misery loves company",
+        "The straw that breaks the camel's back",
+        "Dedication",
+        "Faith",
+        "Gratitude"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Behavior of the Self",
+      "center": "G",
+      "summary": "Gate 10 \u2014 Behavior of the Self (G center).",
+      "lines": [
+        "Modesty",
+        "The hermit",
+        "The martyr",
+        "The opportunist",
+        "The heretic",
+        "The role model"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ideas",
+      "center": "Ajna",
+      "summary": "Gate 11 \u2014 Ideas (Ajna center).",
+      "lines": [
+        "Attunement",
+        "Rigour",
+        "The realist",
+        "The teacher",
+        "The philanthropist",
+        "Adaptability"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Caution",
+      "center": "Throat",
+      "summary": "Gate 12 \u2014 Caution (Throat center).",
+      "lines": [
+        "The monk",
+        "Purification",
+        "Confession",
+        "The prophet",
+        "The pragmatist",
+        "Metamorphosis"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Listener",
+      "center": "G",
+      "summary": "Gate 13 \u2014 The Listener (G center).",
+      "lines": [
+        "Empathy",
+        "Bigotry",
+        "Pessimism",
+        "Fatigue",
+        "The saviour",
+        "The optimist"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Power Skills",
+      "center": "Sacral",
+      "summary": "Gate 14 \u2014 Power Skills (Sacral center).",
+      "lines": [
+        "Money isn't everything",
+        "Management",
+        "Service",
+        "Security",
+        "Arrogance",
+        "Humilty"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Extremes",
+      "center": "G",
+      "summary": "Gate 15 \u2014 Extremes (G center).",
+      "lines": [
+        "Duty",
+        "Influence",
+        "Ego inflation",
+        "The wallflower",
+        "Sensitivity",
+        "Self-defense"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Skills",
+      "center": "Throat",
+      "summary": "Gate 16 \u2014 Skills (Throat center).",
+      "lines": [
+        "Delusion",
+        "The cynic",
+        "Independence",
+        "The leader",
+        "The grinch",
+        "Gullibility"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Opinions",
+      "center": "Ajna",
+      "summary": "Gate 17 \u2014 Opinions (Ajna center).",
+      "lines": [
+        "Openness",
+        "Discrimination",
+        "Understanding",
+        "The personnel manager",
+        "No human is an island",
+        "The bodhisattva"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Correction",
+      "center": "Spleen",
+      "summary": "Gate 18 \u2014 Correction (Spleen center).",
+      "lines": [
+        "Conservatism",
+        "Terminal disease",
+        "The zealot",
+        "The incompetent",
+        "Therapy",
+        "Buddhahood"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Wanting",
+      "center": "Root",
+      "summary": "Gate 19 \u2014 Wanting (Root center).",
+      "lines": [
+        "Interdependence",
+        "Service",
+        "Dedication",
+        "The team player",
+        "Sacrifice",
+        "The recluse"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "The Now",
+      "center": "Throat",
+      "summary": "Gate 20 \u2014 The Now (Throat center).",
+      "lines": [
+        "Superficiality",
+        "The dogmatist",
+        "Self-awareness",
+        "Application",
+        "Realism",
+        "Wisdom"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The Hunter/Huntress",
+      "center": "Heart/Ego",
+      "summary": "Gate 21 \u2014 The Hunter/Huntress (Heart/Ego center).",
+      "lines": [
+        "Warning",
+        "Might is right",
+        "Powerlessness",
+        "Strategy",
+        "Objectivity",
+        "Chaos"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Grace",
+      "center": "Solar Plexus",
+      "summary": "Gate 22 \u2014 Grace (Solar Plexus center).",
+      "lines": [
+        "Second class ticket",
+        "Charm school",
+        "The enchanter",
+        "Sensitivity",
+        "Directness",
+        "Maturity"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Assimilation",
+      "center": "Throat",
+      "summary": "Gate 23 \u2014 Assimilation (Throat center).",
+      "lines": [
+        "Proselytization",
+        "Self-defense",
+        "Individuality",
+        "Fragmentation",
+        "Assimilation",
+        "Fusion"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Rationalizing",
+      "center": "Ajna",
+      "summary": "Gate 24 \u2014 Rationalizing (Ajna center).",
+      "lines": [
+        "The sin of omission",
+        "Recognition",
+        "The addict",
+        "The hermit",
+        "Confession",
+        "The gift horse"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Innocence",
+      "center": "G",
+      "summary": "Gate 25 \u2014 Innocence (G center).",
+      "lines": [
+        "Selflessness",
+        "The existentialist",
+        "Sensibility",
+        "Survival",
+        "Recuperation",
+        "Ignorance"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "The Egoist",
+      "center": "Heart/Ego",
+      "summary": "Gate 26 \u2014 The Egoist (Heart/Ego center).",
+      "lines": [
+        "A bird in the hand",
+        "The lessons of history",
+        "Influence",
+        "Censorship",
+        "Adaptability",
+        "Authority"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Caring",
+      "center": "Sacral",
+      "summary": "Gate 27 \u2014 Caring (Sacral center).",
+      "lines": [
+        "Selfishness",
+        "Self-sufficiency",
+        "Greed",
+        "Generosity",
+        "The executor",
+        "Wariness"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "The Game Player",
+      "center": "Spleen",
+      "summary": "Gate 28 \u2014 The Game Player (Spleen center).",
+      "lines": [
+        "Preparation",
+        "Shaking hands with the devil",
+        "Adventurism",
+        "Holding on",
+        "Treachery",
+        "Blaze of glory"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "The Abyssal",
+      "center": "Sacral",
+      "summary": "Gate 29 \u2014 The Abyssal (Sacral center).",
+      "lines": [
+        "The draftee",
+        "Assessment",
+        "Evaluation",
+        "Directness",
+        "Overreach",
+        "Confusion"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Recognition of Feelings",
+      "center": "Solar Plexus",
+      "summary": "Gate 30 \u2014 Recognition of Feelings (Solar Plexus center).",
+      "lines": [
+        "Composure",
+        "Pragmatism",
+        "Resignation",
+        "Burnout",
+        "Irony",
+        "Enforcement"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Leading",
+      "center": "Throat",
+      "summary": "Gate 31 \u2014 Leading (Throat center).",
+      "lines": [
+        "Manifestation",
+        "Arrogance",
+        "Selectivity",
+        "Intent",
+        "Self-righteousness",
+        "Application"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Continuity",
+      "center": "Spleen",
+      "summary": "Gate 32 \u2014 Continuity (Spleen center).",
+      "lines": [
+        "Conservation",
+        "Restraint",
+        "Lack on continuity",
+        "Right is might",
+        "Flexibility",
+        "Tranquillity"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Retreat",
+      "center": "Throat",
+      "summary": "Gate 33 \u2014 Retreat (Throat center).",
+      "lines": [
+        "Avoidance",
+        "Surrender",
+        "Spirit",
+        "Dignity",
+        "Timing",
+        "Disassociation"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Power",
+      "center": "Sacral",
+      "summary": "Gate 34 \u2014 Power (Sacral center).",
+      "lines": [
+        "The bully",
+        "Momentum",
+        "Machismo",
+        "Triumph",
+        "Annihilation",
+        "Common sense"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Change",
+      "center": "Throat",
+      "summary": "Gate 35 \u2014 Change (Throat center).",
+      "lines": [
+        "Humility",
+        "Creative block",
+        "Collaboration",
+        "Hunger",
+        "Altruism",
+        "Rectification"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Crisis",
+      "center": "Solar Plexus",
+      "summary": "Gate 36 \u2014 Crisis (Solar Plexus center).",
+      "lines": [
+        "Resistance",
+        "Support",
+        "Transition",
+        "Espionage",
+        "The underground",
+        "Justice"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Friendship",
+      "center": "Solar Plexus",
+      "summary": "Gate 37 \u2014 Friendship (Solar Plexus center).",
+      "lines": [
+        "The mother/father",
+        "Responsibility",
+        "Evenhandedness",
+        "Leadership by example",
+        "Love",
+        "Purpose"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "The Fighter",
+      "center": "Root",
+      "summary": "Gate 38 \u2014 The Fighter (Root center).",
+      "lines": [
+        "Qualification",
+        "Politeness",
+        "Alliance",
+        "Investigation",
+        "Alienation",
+        "Misunderstanding"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "The Provocateur",
+      "center": "Root",
+      "summary": "Gate 39 \u2014 The Provocateur (Root center).",
+      "lines": [
+        "Disengagement",
+        "Confrontation",
+        "Responsibility",
+        "Temperance",
+        "Single-mindedness",
+        "The troubleshooter"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Aloneness",
+      "center": "Heart/Ego",
+      "summary": "Gate 40 \u2014 Aloneness (Heart/Ego center).",
+      "lines": [
+        "Recuperation",
+        "Resoluteness",
+        "Humility",
+        "Organization",
+        "Rigidity",
+        "Decapitation"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Contraction",
+      "center": "Root",
+      "summary": "Gate 41 \u2014 Contraction (Root center).",
+      "lines": [
+        "Reasonableness",
+        "Caution",
+        "Efficiency",
+        "Correction",
+        "Authorization",
+        "Contagion"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Growth",
+      "center": "Sacral",
+      "summary": "Gate 42 \u2014 Growth (Sacral center).",
+      "lines": [
+        "Diversification",
+        "Identification",
+        "Trial and error",
+        "The middle man",
+        "Self-actualization",
+        "Nurturing"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Insight",
+      "center": "Ajna",
+      "summary": "Gate 43 \u2014 Insight (Ajna center).",
+      "lines": [
+        "Patience",
+        "Dedication",
+        "Expediency",
+        "The one-track mind",
+        "Progression",
+        "Breakthrough"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Alertness",
+      "center": "Spleen",
+      "summary": "Gate 44 \u2014 Alertness (Spleen center).",
+      "lines": [
+        "Conditions",
+        "Management",
+        "Interference",
+        "Honesty",
+        "Manipulation",
+        "Aloofness"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "The Gatherer",
+      "center": "Throat",
+      "summary": "Gate 45 \u2014 The Gatherer (Throat center).",
+      "lines": [
+        "Canvassing",
+        "Consensus",
+        "Exclusion",
+        "Direction",
+        "Leadership",
+        "Reconsideration"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Determination of the Self",
+      "center": "G",
+      "summary": "Gate 46 \u2014 Determination of the Self (G center).",
+      "lines": [
+        "Being discovered",
+        "The prima donna",
+        "Projection",
+        "Impact",
+        "Pacing,",
+        "Integrity"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Realizing",
+      "center": "Ajna",
+      "summary": "Gate 47 \u2014 Realizing (Ajna center).",
+      "lines": [
+        "Taking stock",
+        "Ambition",
+        "Self-oppression",
+        "Repression",
+        "The saint",
+        "Futility"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Depth",
+      "center": "Spleen",
+      "summary": "Gate 48 \u2014 Depth (Spleen center).",
+      "lines": [
+        "Insignificance",
+        "Degeneracy",
+        "Incommunicado",
+        "Restructuring",
+        "Action",
+        "Self-fulfillment"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Principles",
+      "center": "Solar Plexus",
+      "summary": "Gate 49 \u2014 Principles (Solar Plexus center).",
+      "lines": [
+        "The law of necessity",
+        "The last resort",
+        "Popular discontent",
+        "Platform",
+        "Organization",
+        "Attraction"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Values",
+      "center": "Spleen",
+      "summary": "Gate 50 \u2014 Values (Spleen center).",
+      "lines": [
+        "The immigrant",
+        "Determination",
+        "Adaptability",
+        "Corruption",
+        "Consistency",
+        "Leadership"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Shock",
+      "center": "Heart/Ego",
+      "summary": "Gate 51 \u2014 Shock (Heart/Ego center).",
+      "lines": [
+        "Reference",
+        "Withdrawal",
+        "Adaptation",
+        "Limitation",
+        "Symmetry",
+        "Separation"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Inaction",
+      "center": "Root",
+      "summary": "Gate 52 \u2014 Inaction (Root center).",
+      "lines": [
+        "Think before you speak",
+        "Concern, interest, involvement",
+        "Controls",
+        "Self-discipline",
+        "Explanation",
+        "Peacefulness"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Beginnings",
+      "center": "Root",
+      "summary": "Gate 53 \u2014 Beginnings (Root center).",
+      "lines": [
+        "Accumulation",
+        "Momentum",
+        "Practicality",
+        "Assuredness",
+        "Assertion",
+        "Phasing"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Ambition",
+      "center": "Root",
+      "summary": "Gate 54 \u2014 Ambition (Root center).",
+      "lines": [
+        "Influence",
+        "Discretion",
+        "Covert interaction",
+        "Enlightenment/endarkenment",
+        "Magnanimity",
+        "Selectivity"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Spirit",
+      "center": "Solar Plexus",
+      "summary": "Gate 55 \u2014 Spirit (Solar Plexus center).",
+      "lines": [
+        "Co-operation",
+        "Distrust",
+        "Innocence",
+        "Assimilation",
+        "Growth",
+        "Selfishness"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "The Wanderer",
+      "center": "Throat",
+      "summary": "Gate 56 \u2014 The Wanderer (Throat center).",
+      "lines": [
+        "Quality",
+        "Linkage",
+        "Alienation",
+        "Expediency",
+        "Attracting attention",
+        "Caution"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Intuition",
+      "center": "Spleen",
+      "summary": "Gate 57 \u2014 Intuition (Spleen center).",
+      "lines": [
+        "Confusion",
+        "Cleansing",
+        "Acuteness",
+        "The director",
+        "Progression",
+        "Utilization"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Aliveness",
+      "center": "Root",
+      "summary": "Gate 58 \u2014 Aliveness (Root center).",
+      "lines": [
+        "Love of life",
+        "Perversion",
+        "Electricity",
+        "Focusing",
+        "Defense",
+        "Carried away"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Sexuality",
+      "center": "Sacral",
+      "summary": "Gate 59 \u2014 Sexuality (Sacral center).",
+      "lines": [
+        "The preemptive strike",
+        "Shyness",
+        "Openness",
+        "Brotherhood/sisterhood",
+        "The femme fatale or Casanova",
+        "The one night stand"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Acceptance",
+      "center": "Root",
+      "summary": "Gate 60 \u2014 Acceptance (Root center).",
+      "lines": [
+        "Acceptance",
+        "Decisiveness",
+        "Conservatism",
+        "Resourcefulness",
+        "Leadership",
+        "Rigidity"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Mystery",
+      "center": "Head",
+      "summary": "Gate 61 \u2014 Mystery (Head center).",
+      "lines": [
+        "Occult knowledge",
+        "Natural brilliance",
+        "Interdependence",
+        "Research",
+        "Influence",
+        "Appeal"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Detail",
+      "center": "Throat",
+      "summary": "Gate 62 \u2014 Detail (Throat center).",
+      "lines": [
+        "Routine",
+        "Restraint",
+        "Discovery",
+        "Asceticism",
+        "Metamorphosis",
+        "Self-discipline"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Doubt",
+      "center": "Head",
+      "summary": "Gate 63 \u2014 Doubt (Head center).",
+      "lines": [
+        "Composure",
+        "Structuring",
+        "Continuance",
+        "Memory",
+        "Affirmation",
+        "Nostalgia"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Confusion",
+      "center": "Head",
+      "summary": "Gate 64 \u2014 Confusion (Head center).",
+      "lines": [
+        "Conditions",
+        "Qualification",
+        "Overextension",
+        "Conviction",
+        "Promise",
+        "Victory"
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "1-8",
+      "name": "Inspiration",
+      "modifier": "Individual",
+      "gates": [
+        1,
+        8
+      ],
+      "summary": "Inspiration channel, connecting Gate 1 and Gate 8."
+    },
+    {
+      "id": "2-14",
+      "name": "The Beat",
+      "modifier": "Individual",
+      "gates": [
+        2,
+        14
+      ],
+      "summary": "The Beat channel, connecting Gate 2 and Gate 14."
+    },
+    {
+      "id": "3-60",
+      "name": "Mutation",
+      "modifier": "Individual",
+      "gates": [
+        3,
+        60
+      ],
+      "summary": "Mutation channel, connecting Gate 3 and Gate 60."
+    },
+    {
+      "id": "4-63",
+      "name": "Logic",
+      "modifier": "Collective",
+      "gates": [
+        4,
+        63
+      ],
+      "summary": "Logic channel, connecting Gate 4 and Gate 63."
+    },
+    {
+      "id": "5-15",
+      "name": "Rhythm",
+      "modifier": "Collective",
+      "gates": [
+        5,
+        15
+      ],
+      "summary": "Rhythm channel, connecting Gate 5 and Gate 15."
+    },
+    {
+      "id": "6-59",
+      "name": "Mating",
+      "modifier": "Tribal",
+      "gates": [
+        6,
+        59
+      ],
+      "summary": "Mating channel, connecting Gate 6 and Gate 59."
+    },
+    {
+      "id": "7-31",
+      "name": "The Alpha",
+      "modifier": "Collective",
+      "gates": [
+        7,
+        31
+      ],
+      "summary": "The Alpha channel, connecting Gate 7 and Gate 31."
+    },
+    {
+      "id": "9-52",
+      "name": "Concentration",
+      "modifier": "Collective",
+      "gates": [
+        9,
+        52
+      ],
+      "summary": "Concentration channel, connecting Gate 9 and Gate 52."
+    },
+    {
+      "id": "10-20",
+      "name": "Awakening",
+      "modifier": "Individual",
+      "gates": [
+        10,
+        20
+      ],
+      "summary": "Awakening channel, connecting Gate 10 and Gate 20."
+    },
+    {
+      "id": "10-34",
+      "name": "Exploration",
+      "modifier": "Individual",
+      "gates": [
+        10,
+        34
+      ],
+      "summary": "Exploration channel, connecting Gate 10 and Gate 34."
+    },
+    {
+      "id": "10-57",
+      "name": "Survival",
+      "modifier": "Individual",
+      "gates": [
+        10,
+        57
+      ],
+      "summary": "Survival channel, connecting Gate 10 and Gate 57."
+    },
+    {
+      "id": "11-56",
+      "name": "Curiosity",
+      "modifier": "Collective",
+      "gates": [
+        11,
+        56
+      ],
+      "summary": "Curiosity channel, connecting Gate 11 and Gate 56."
+    },
+    {
+      "id": "12-22",
+      "name": "Openness",
+      "modifier": "Individual",
+      "gates": [
+        12,
+        22
+      ],
+      "summary": "Openness channel, connecting Gate 12 and Gate 22."
+    },
+    {
+      "id": "13-33",
+      "name": "The Prodigal",
+      "modifier": "Collective",
+      "gates": [
+        13,
+        33
+      ],
+      "summary": "The Prodigal channel, connecting Gate 13 and Gate 33."
+    },
+    {
+      "id": "16-48",
+      "name": "Talent",
+      "modifier": "Collective",
+      "gates": [
+        16,
+        48
+      ],
+      "summary": "Talent channel, connecting Gate 16 and Gate 48."
+    },
+    {
+      "id": "17-62",
+      "name": "Acceptance",
+      "modifier": "Collective",
+      "gates": [
+        17,
+        62
+      ],
+      "summary": "Acceptance channel, connecting Gate 17 and Gate 62."
+    },
+    {
+      "id": "18-58",
+      "name": "Judgment",
+      "modifier": "Collective",
+      "gates": [
+        18,
+        58
+      ],
+      "summary": "Judgment channel, connecting Gate 18 and Gate 58."
+    },
+    {
+      "id": "19-49",
+      "name": "Synthesis",
+      "modifier": "Tribal",
+      "gates": [
+        19,
+        49
+      ],
+      "summary": "Synthesis channel, connecting Gate 19 and Gate 49."
+    },
+    {
+      "id": "20-34",
+      "name": "Charisma",
+      "modifier": "Individual",
+      "gates": [
+        20,
+        34
+      ],
+      "summary": "Charisma channel, connecting Gate 20 and Gate 34."
+    },
+    {
+      "id": "20-57",
+      "name": "Insight",
+      "modifier": "Individual",
+      "gates": [
+        20,
+        57
+      ],
+      "summary": "Insight channel, connecting Gate 20 and Gate 57."
+    },
+    {
+      "id": "21-45",
+      "name": "Money",
+      "modifier": "Tribal",
+      "gates": [
+        21,
+        45
+      ],
+      "summary": "Money channel, connecting Gate 21 and Gate 45."
+    },
+    {
+      "id": "23-43",
+      "name": "Structuring",
+      "modifier": "Individual",
+      "gates": [
+        23,
+        43
+      ],
+      "summary": "Structuring channel, connecting Gate 23 and Gate 43."
+    },
+    {
+      "id": "24-61",
+      "name": "Awareness",
+      "modifier": "Individual",
+      "gates": [
+        24,
+        61
+      ],
+      "summary": "Awareness channel, connecting Gate 24 and Gate 61."
+    },
+    {
+      "id": "25-51",
+      "name": "Initiation",
+      "modifier": "Individual",
+      "gates": [
+        25,
+        51
+      ],
+      "summary": "Initiation channel, connecting Gate 25 and Gate 51."
+    },
+    {
+      "id": "26-44",
+      "name": "Surrender",
+      "modifier": "Tribal",
+      "gates": [
+        26,
+        44
+      ],
+      "summary": "Surrender channel, connecting Gate 26 and Gate 44."
+    },
+    {
+      "id": "27-50",
+      "name": "Preservation",
+      "modifier": "Tribal",
+      "gates": [
+        27,
+        50
+      ],
+      "summary": "Preservation channel, connecting Gate 27 and Gate 50."
+    },
+    {
+      "id": "28-38",
+      "name": "Struggle",
+      "modifier": "Individual",
+      "gates": [
+        28,
+        38
+      ],
+      "summary": "Struggle channel, connecting Gate 28 and Gate 38."
+    },
+    {
+      "id": "29-46",
+      "name": "Discovery",
+      "modifier": "Collective",
+      "gates": [
+        29,
+        46
+      ],
+      "summary": "Discovery channel, connecting Gate 29 and Gate 46."
+    },
+    {
+      "id": "30-41",
+      "name": "Recognition",
+      "modifier": "Collective",
+      "gates": [
+        30,
+        41
+      ],
+      "summary": "Recognition channel, connecting Gate 30 and Gate 41."
+    },
+    {
+      "id": "32-54",
+      "name": "Transformation",
+      "modifier": "Tribal",
+      "gates": [
+        32,
+        54
+      ],
+      "summary": "Transformation channel, connecting Gate 32 and Gate 54."
+    },
+    {
+      "id": "34-57",
+      "name": "Power",
+      "modifier": "Individual",
+      "gates": [
+        34,
+        57
+      ],
+      "summary": "Power channel, connecting Gate 34 and Gate 57."
+    },
+    {
+      "id": "35-36",
+      "name": "Transitoriness",
+      "modifier": "Collective",
+      "gates": [
+        35,
+        36
+      ],
+      "summary": "Transitoriness channel, connecting Gate 35 and Gate 36."
+    },
+    {
+      "id": "37-40",
+      "name": "Community",
+      "modifier": "Tribal",
+      "gates": [
+        37,
+        40
+      ],
+      "summary": "Community channel, connecting Gate 37 and Gate 40."
+    },
+    {
+      "id": "39-55",
+      "name": "Emoting",
+      "modifier": "Individual",
+      "gates": [
+        39,
+        55
+      ],
+      "summary": "Emoting channel, connecting Gate 39 and Gate 55."
+    },
+    {
+      "id": "42-53",
+      "name": "Maturation",
+      "modifier": "Collective",
+      "gates": [
+        42,
+        53
+      ],
+      "summary": "Maturation channel, connecting Gate 42 and Gate 53."
+    },
+    {
+      "id": "47-64",
+      "name": "Abstraction",
+      "modifier": "Collective",
+      "gates": [
+        47,
+        64
+      ],
+      "summary": "Abstraction channel, connecting Gate 47 and Gate 64."
+    }
+  ]
+}
